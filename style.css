@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+  max-width: 400px;
+  text-align: center;
+}
+
+div p {
+  background-color: rgba(0, 90, 200, 0.8);
+  text-align: left;
+  padding: 8px 16px;
+  margin-left: 100px;
+  display: flex;
+  float: right;
+  margin-top: -110px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.about-title {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.perfilPicture {
+  width: 80px;
+  clip-path: circle();
+  margin-right: 500px;
+
+}
