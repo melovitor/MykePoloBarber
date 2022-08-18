@@ -3,6 +3,7 @@
   margin: 0 auto;
   max-width: 400px;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -16,24 +17,25 @@ h1 {
   color: red;
 }
 
+h2 {
+  font-family: 'Birthstone', cursive;
+}
+
 
 div p {
   background-color: rgba(0, 90, 200, 0.8);
-  text-align: left;
   padding: 8px 16px;
   margin-left: 100px;
   display: flex;
   float: right;
-  margin-top: -110px;
+  margin-top: -90px;
   border-radius: 10px;
-  margin-bottom: 15px;
   font-family: 'Roboto', sans-serif;
 }
 
 .about-title {
-  margin-bottom: 5px;
-  font-family: 'Roboto', sans-serif;
   margin-left: 80px;
+  margin-bottom: -20px;
 
 }
 
