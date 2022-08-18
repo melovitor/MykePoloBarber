@@ -43,6 +43,8 @@ div p {
   width: 80px;
   clip-path: circle();
   margin-right: 500px;
+  background-color: red;
+  background-position: 50px 150px;
 
 }
 
@@ -50,4 +52,37 @@ div p {
   width: 300px;
   border-radius: 10px;
   margin-left: -100px;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-bottom: 20px;
+  background-color: rgba(0, 90, 200, 0.8);
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.hair-cut img,
+.beard-cut img {
+  width: 150px;
+  border-radius: 10px;
+}
+
+li {
+  list-style: none;
+}
+
+.hair1,
+.beard1 {
+  margin-left: -110px;
+}
+
+.hair2,
+.beard2 {
+  margin-left: 110px;
+  margin-top: -50px;
 }
