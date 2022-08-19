@@ -11,64 +11,54 @@ html {
   overflow-x: hidden;
 }
 
-header {
+header h1 {
   box-shadow: 0px 1px 5px rgb(116, 116, 116);
   background-color: white;
   position: fixed;
-  width: 400px;
+  width: 500px;
   z-index: 1;
-}
-
-h1 {
   font-family: 'Birthstone', cursive;
   color: red;
+}
 
+.workPicture {
+  box-shadow: 0px 1px 5px rgb(116, 116, 116);
+  margin-top: 30px;
+  width: 400px;
 }
 
 h2 {
   font-family: 'Birthstone', cursive;
 }
 
-.about {
-  margin-top: 70px;
-
-}
-
-div p {
-  background-color: rgba(0, 90, 200, 0.8);
-  padding: 8px 16px;
-  margin-left: 100px;
-  float: right;
-  border-radius: 10px;
-  font-family: 'Roboto', sans-serif;
-  display: inline;
-  margin-top: -85px;
-}
-
 .about-title {
-  margin-left: 80px;
+  margin-top: 20px;
   margin-bottom: -7px;
 }
 
 .perfilPicture {
-  width: 70px;
+  width: 100px;
   clip-path: circle();
-  margin-right: 300px;
+  margin-bottom: -10px;
+
 }
 
-.workPicture {
-  width: 300px;
+p {
+  padding: 8px 16px;
+  float: right;
   border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 40px;
 }
 
 h3 {
   margin-bottom: -5px;
+  margin-top: 10px;
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 5px;
   padding: 2px;
   color: white;
   width: 370px;
-
 }
 
 .hair-cut img,
@@ -79,14 +69,13 @@ h3 {
 
 .hair-cut,
 .beard-cut {
-  background-color: rgba(149, 149, 149, 0.518);
+  background-image: url("./backgourd.jpg");
   margin-top: 10px;
   margin-bottom: 25px;
   border-radius: 10px;
   padding: 15px;
   box-sizing: border-box;
   width: 340px;
-
 }
 
 li {
