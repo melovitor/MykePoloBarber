@@ -64,7 +64,7 @@ h2 {
 .about p {
   font-family: 'Roboto', sans-serif;
   margin-bottom: 40px;
-  text-decoration: underline rgba(255, 0, 0, 0.772) 1px;
+  text-decoration: underline rgba(255, 0, 0, 0.412) 1px;
   color: white;
 }
 
@@ -91,4 +91,41 @@ h3 {
 
 iframe {
   margin-top: -30px;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  border-radius: 25px;
+  background-color: white;
+  text-align: center;
+}
+
+.icon-cut-icon,
+.icon-hair-icon {
+  display: block;
+  font-size: 100px;
+  color: red;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.icon-beard-icon {
+  display: block;
+  font-size: 200px;
+  color: red;
+  overflow: hidden;
+  margin-top: -10px;
+}
+
+.pic {
+  width: 200px;
+  height: 200px;
+  display: inline;
+  background-color: re;
+
+}
+
+.hair1 {
+  background-image: url('./hair/1.jpg');
 }
