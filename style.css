@@ -1,43 +1,53 @@
 * {
   padding: 0;
   margin: 0 auto;
-  max-width: 400px;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
+}
+
+body {
+  background: rgb(26, 26, 26);
 }
 
 html {
   overflow-x: hidden;
 }
 
-header h1 {
-  background-color: white;
-  width: 400px;
-  height: 75px;
-  font-size: 40px;
-  position: fixed;
+.glass-effect {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.031);
+  backdrop-filter: blur(13.5px);
+  -webkit-backdrop-filter: blur(13.5px);
+  border: 1px solid rgba(58, 58, 58, 0.18);
   z-index: 1;
-  font-family: 'Birthstone', cursive;
-  color: red;
-  -webkit-mask-image: linear-gradient(to top, transparent 5%, black 25%)
+  position: fixed;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  overflow: hidden;
+  height: 55px;
 }
 
-body {
-  background-image: url('./background.webp');
+.glass-effect p {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Birthstone', cursive;
+  color: white;
 }
 
 .workPicture {
-  box-shadow: 0px 1px 5px rgb(116, 116, 116);
   margin-top: 50px;
-  width: 400px;
+  max-width: 100%;
+  max-height: 100%;
   -webkit-mask-image: linear-gradient(to top, transparent 5%, black 25%);
 }
 
 h2 {
-  font-family: 'Birthstone', cursive;
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
   margin-bottom: -30px;
   font-size: 50px;
+  color: white;
 }
 
 .about-title {
@@ -46,18 +56,16 @@ h2 {
 }
 
 .perfilPicture {
-  width: 100px;
+  width: 150px;
   clip-path: circle();
   margin-bottom: -10px;
-
 }
 
-p {
-  padding: 8px 16px;
-  float: right;
-  border-radius: 10px;
+.about p {
   font-family: 'Roboto', sans-serif;
   margin-bottom: 40px;
+  text-decoration: underline rgba(255, 0, 0, 0.772) 1px;
+  color: white;
 }
 
 h3 {
